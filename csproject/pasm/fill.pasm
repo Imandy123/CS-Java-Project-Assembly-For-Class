@@ -1,0 +1,7 @@
+LOD 1FF
+STO [0]
+STO [[0]]
+JMPZ 3
+SUB 1
+JUMP -4
+HALT

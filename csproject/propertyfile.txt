@@ -1,0 +1,5 @@
+#File locations
+#Fri Dec 11 18:26:01 EST 2020
+ExecutableDirectory=C\:/Users/liuan/cs140/fall2020-final-project-andy-liu-project/csproject/pexe/
+DataDirectory=C\:/Users/liuan/cs140/fall2020-final-project-andy-liu-project/csproject/pdata/
+SourceDirectory=C\:/Users/liuan/cs140/fall2020-final-project-andy-liu-project/csproject/pasm/
