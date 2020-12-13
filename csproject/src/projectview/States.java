@@ -57,7 +57,7 @@ public enum States {
 	private static final int RUN = 4;
 	private static final int RUNNING = 5;
 	private static final int STEP = 6;
-	boolean [] states = new boolean[7];
+	private static boolean [] states = new boolean[7];
 	
 	public abstract void enter();
 	public boolean isAssembleFileActive() {
