@@ -271,20 +271,20 @@ public class Assembler {
 	}
 	public static void main(String[] args) {
 
-		StringBuilder error = new StringBuilder(); 
-		System.out.println("Enter the name of the file in the \"pasm\" folder without extension: "); 
-		try (Scanner keyboard = new Scanner(System.in)) { 
-			String filename = keyboard.nextLine(); 
-			int i = Assembler.assemble("pasm/" +filename + ".pasm",
-					"pexe/" + filename + ".pexe", error); 
-			System.out.println("error = " + error);
-			System.out.println("result = " + i); 
-		}
+//		StringBuilder error = new StringBuilder(); 
+//		System.out.println("Enter the name of the file in the \"pasm\" folder without extension: "); 
+//		try (Scanner keyboard = new Scanner(System.in)) { 
+//			String filename = keyboard.nextLine(); 
+//			int i = Assembler.assemble("pasm/" +filename + ".pasm",
+//					"pexe/" + filename + ".pexe", error); 
+//			System.out.println("error = " + error);
+//			System.out.println("result = " + i); 
+//		}
 
-		//		 StringBuilder error = new StringBuilder(); for(int i = 2; i < 16; ++i) {
-		//		 String filename = (i<10?"0":"") + i; Assembler.assemble("pasm/z0" + filename
-		//		 + "e.pasm", "pexe/" + filename + ".pexe", error);
-		//		 error.append("=====================\n"); } System.out.println(error);
+				 StringBuilder error = new StringBuilder(); for(int i = 2; i < 16; ++i) {
+				 String filename = (i<10?"0":"") + i; Assembler.assemble("pasm/z0" + filename
+				 + "e.pasm", "pexe/" + filename + ".pexe", error);
+				 error.append("=====================\n"); } System.out.println(error);
 
 	}
 }

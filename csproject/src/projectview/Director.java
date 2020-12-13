@@ -111,7 +111,9 @@ public class Director {
 		filesMgr.finalDataLoad_Reload();
 	};
 	public void setPeriod(int period) {
+		timer.stop();
 		timer.setDelay(period);
+		timer.start();
 	}
 	public States getCurrentState() {
 		return currentState;
